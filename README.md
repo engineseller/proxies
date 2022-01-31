@@ -1,6 +1,39 @@
 # Proxies
 Free Proxy-List with Script to Update
 
+## Figure 1-6 Parts of an IP Address
+
+IP [1]
+|
+| Port [2]
+|   |
+|   | Country [3]
+|   |   |
+|   |   | Anonymity [4]
+|   |   |  |
+|   |   |  |  Type [5]
+|   |   |  |   |_ _ _ _
+|   |   |  |_ _ _ _ _  | Passed [6]
+|   |   |_ _ _ _ _   | |  |
+|   |_ _ _ _ _    |  | |  |
+|             |   |  | |  |
+200.2.125.90:8080 AR-N-S! +
+
+1. IP address
+2. Port number
+3. Country code
+4. Anonymity
+   N = No anonymity
+   A = Anonymity
+   H = High anonymity
+5. Type
+     = HTTP
+   S = HTTP/HTTPS
+   ! = incoming IP different from outgoing IP
+6. Passed
+   + = Yes
+   – = No
+
 ## How to use?
 Open terminal and run following commands
 ```
