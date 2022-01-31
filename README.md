@@ -3,6 +3,7 @@ Free Proxy-List with Script to Update
 
 ## Figure 1-6 Parts of an IP Address
 
+```
 IP [1]
 |
 | Port [2]
@@ -33,6 +34,7 @@ IP [1]
 6. Passed
    + = Yes
    – = No
+```
 
 ## How to use?
 Open terminal and run following commands
